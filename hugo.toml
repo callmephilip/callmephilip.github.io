@@ -7,6 +7,10 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+[params]
+    Description="Words and codes from Philip Nuzhnyy, software developer"
+	mode="auto" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
 
 [[params.social]]
 name = "GitHub"
