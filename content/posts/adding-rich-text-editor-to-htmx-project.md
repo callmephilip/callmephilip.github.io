@@ -6,7 +6,7 @@ draft: false
 
 How much extra javascript do you need to wire a reasonably ambitious and feature full rich text editor in your HTMX based app? Let's find out.   
 
-> Some context: The very first build of [tinychat](https://github.com/callmephilip/tinychat) shipped with a plain text editor. tinychat uses HTMX for the SPA feel. Last week I added integration with [CK Editor 5](https://ckeditor.com/). Here is what it looks like:
+> Some context: The very first build of [tinychat](https://github.com/callmephilip/tinychat) shipped with a plain text editor. tinychat uses HTMX to get the SPA feel going. Last week I added integration with [CK Editor 5](https://ckeditor.com/). Here is what it looks like:
 
 ![tinychat with rich text editor](/tinychat-editor.png)
 
