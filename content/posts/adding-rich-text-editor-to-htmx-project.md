@@ -12,7 +12,7 @@ How much extra javascript do you need to wire a reasonably ambitious and feature
 
 Let me preface this by saying, I am not married to CK Editor as the choice for rich text editor and am happy to explore other alternatives. The approach to integrating it into HTMX app will remain the same as long as we have access to a js module build. CK Editor has a very helpful [builder](https://ckeditor.com/ckeditor-5/builder/) that allows you to customize your editor and get going very fast. 
 
-After running the above mentioned builder, I ended up with a few things in my hands:  
+After running the above mentioned builder, I ended up with a few things:  
 
 - a [hosted](https://cdn.ckeditor.com/ckeditor5/43.3.0/ckeditor5.js) CKEditor5 [js module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) with a module import map
 - a [hosted](https://cdn.ckeditor.com/ckeditor5/43.3.1/ckeditor5.css) stylesheet for the editor
