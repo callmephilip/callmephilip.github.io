@@ -33,14 +33,17 @@ export default function ($el, { placeholder, formId }) {
       if (data.isSoft) { return; }
       data.preventDefault();
       evt.stop();
-      document.querySelector(`#${formId} > input[type=hidden]`).value = editor.getData();
+      document.querySelector(`#${formId} > input[type=hidden]`).value =
+        editor.getData();
       htmx.trigger(`#${formId}`, "submit");
       editor.setData("");
       document.querySelector(`#${formId} > input[type=hidden]`).value = null;
     });
   }
 
-  ClassicEditor.create($el, { /* editor config */ }).then((editor) => editor.editing.view.focus());
+  ClassicEditor.create($el, { /* editor config */ }).then(
+    (editor) => editor.editing.view.focus()
+  );
 }
 ```
 
@@ -49,14 +52,15 @@ Back in the app, we can now import the module and initialize it. Here is what in
 ```html
 <div
     x-data="{ placeholder: 'Message #general', formId: 'f-1' }"
-    x-init="import('editor.js').then((editor) => editor.default($el, $data))"
+    x-init="import('editor.js').then((editor) => editor.default($el, $data))">
 </div>
 ```
 
 The underlying form responsible for sending the message looks as something like this:
 
 ```html
-<form enctype="multipart/form-data" hx-post="/messages/send/1" hx-target="#channel-1" id="f-1" ... >
+<form enctype="multipart/form-data" hx-post="/messages/send/1"
+    hx-target="#channel-1" id="f-1" ... >
     <!-- ... -->
 </form>
 ```
