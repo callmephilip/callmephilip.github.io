@@ -38,7 +38,9 @@ this will happen
 
 And this IS a big deal! Especially if you are doing some [Out of Band 🎺](https://htmx.org/attributes/hx-swap-oob/) (OOB) updates in HTMX which use IDs for targeting. HTMX will receive the payload, try to locate elements using theirs IDs and fail miserably.
 
-This had me scratching my head for a good hour or so. When doing HTMX, my gaze tends to be drawn more and more to the Network tab in devtools and my server console logs rather than javascript console logs. After all, who needs javascript now! (Just kidding, we all need javascript still). It took me a moment to notice the `document.querySelectorAll` throwing exceptions. Here's the breakdown: 
+This had me scratching my head for a good hour or so. When doing HTMX, my gaze tends to be drawn more and more to the Network tab in devtools and my server console logs rather than javascript console logs. After all, who needs javascript now! (Just kidding, we all need javascript still).
+
+It took me a moment to notice the `document.querySelectorAll` throwing exceptions.
 
 ## Post Mortem
 
