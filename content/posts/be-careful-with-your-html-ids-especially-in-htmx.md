@@ -1,7 +1,7 @@
 ---
-title = 'Be Careful With Your HTML element IDs, especially in HTMX'
-date = 2024-11-11T09:58:49Z
-draft = false
+title: "Be Careful With Your HTML element IDs, especially in HTMX"
+date: 2024-11-11T09:58:49Z
+draft: false
 ---
 
 I once came across a Reddit thread where people were sharing embarrassing facts about themselves. My favorite was a guy who misheard the saying ["Knowledge is power" - Francis Bacon](https://www.monticello.org/research-education/thomas-jefferson-encyclopedia/knowledge-power-quotation/) as "Knowledge is power, France is bacon". For years, he thought that this was the way the saying went.
