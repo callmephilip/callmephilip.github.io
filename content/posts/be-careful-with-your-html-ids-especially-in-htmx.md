@@ -1,6 +1,6 @@
 ---
 title: "Be Careful With Your HTML element IDs, especially in HTMX"
-date: 2024-11-11T09:58:49Z
+date: 2024-11-21T09:58:49Z
 draft: false
 ---
 
