@@ -8,9 +8,9 @@ I once came across a Reddit thread where people were sharing embarrassing facts 
 
 ## Knowledge is power
 
-It's time for my "France is bacon" moment - I don't know how HTML element IDs work.
+It's time for my "France is bacon" moment - I don't know how HTML element IDs work. Do you?
 
-Which one of these is a valid HTML element id (ie `<img src="blah" id="" />`)?
+Which one of these is a valid HTML element ID?
 
 - "6d78617a47"
 - "55a199a6-888a-499b-9888-b3282646fdb9"
@@ -28,7 +28,7 @@ That's right, HTML ids cannot start with `numbers` which means things like UUIDs
 
 ## Why is this a big deal?
 
-It probably is not most of the time for most of the people tbh. Modern browsers don't shut down and scream at you if HTML element IDs do not conform to the standard. However, once you try something like like this in your javascript code 
+It is NOT, probably. Most of the time for most of the people, tbh. Modern browsers don't just shut down and scream at you if HTML element IDs do not conform to the standard. However, once you try something like like this in your javascript code 
 
 `document.querySelectorAll("#6d78617a47")`
 
@@ -60,7 +60,7 @@ is kept for decorative purposes only - see [this](https://cheatsheetseries.owasp
 
 To my surprise, SOME of my files seemed to be stuck in the endless uploading phase despite uploads completing successfully. I think by now you see where this is going.
 
-HTMX was pushing OOB updates with ids like `id="3a1b5cfa"` that were rejected by `document.querySelectorAll` while an ID like
+HTMX was pushing OOB updates with IDs like `id="3a1b5cfa"` that were rejected by `document.querySelectorAll` while an ID like
 `id="a1b5cfa"` would work just fine (because it starts with a letter, not digit). I fixed this by adding a `file-` prefix
 to all the element IDs
 
