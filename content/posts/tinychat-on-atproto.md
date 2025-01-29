@@ -1,5 +1,5 @@
 ---
-title: "Tinychat on Atproto"
+title: "tinychat on atproto"
 date: 2025-01-29T14:46:14Z
 draft: false
 ---
