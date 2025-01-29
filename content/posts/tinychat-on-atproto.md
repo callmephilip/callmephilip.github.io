@@ -1,5 +1,5 @@
 ---
-title: "Tinycha on Atproto"
+title: "Tinychat on Atproto"
 date: 2025-01-29T14:46:14Z
 draft: false
 ---
@@ -31,7 +31,7 @@ In the spirit of openness, today I am adding public digests for chat servers. Th
 
 Next area of focus is taming bluesky's firehose and correctly removing content that gets deleted by the people using the service. If you decide to delete your stuff for some reason, the app should comply and have all affordances in place to handle this correctly.
 
-Finally, a lot of work will go into grooming apps lexicon and sharing it with the community to both get feedback as well as collaborate on creating a foundation for more apps in this space. People should be able to build and host their own appviews for tinychat, adapting them to their needs
+Finally, a lot of work will go into grooming app's lexicon and sharing it with the community to both get feedback as well as collaborate on creating a foundation for more apps in this space. People should be able to build and host their own appviews for tinychat, adapting them to their needs
 
 ---
 
